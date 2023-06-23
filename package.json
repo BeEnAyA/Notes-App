@@ -1,0 +1,18 @@
+{
+  "name": "notes-app",
+  "version": "1.0.0",
+  "description": "This is a simple Notes app ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon app.js"
+  },
+  "author": "Binaya Thapa",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mysql2": "^3.4.0",
+    "sequelize": "^6.32.1"
+  }
+}
